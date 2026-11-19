@@ -5,6 +5,10 @@
 	padding-block: 0.25rem 0.75rem;
 }
 
+.horizontal-tiles.alignfull {
+	padding-inline: var(--wp--preset--spacing--30);
+}
+
 .horizontal-tile {
 	position: relative;
 	display: flex;

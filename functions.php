@@ -139,10 +139,6 @@ add_action( 'wp_head', 'haven_preload_primary_fonts', 1 );
  */
 function haven_register_block_styles() {
 	$block_styles = array(
-		'torn-paper'    => array(
-			'blocks' => array( 'core/image', 'core/cover' ),
-			'label'  => __( 'Gescheurd papier', 'oudgoud' ),
-		),
 		'small-panorama' => array(
 			'blocks' => array( 'core/cover' ),
 			'label'  => __( 'Klein panorama', 'oudgoud' ),

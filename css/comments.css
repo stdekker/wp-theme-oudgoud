@@ -1,7 +1,9 @@
 /* Comments. */
 
 .comments-area {
+	width: min(calc(100cqi - 2rem), var(--wp--style--global--content-size));
 	margin-block-start: clamp(2.5rem, 7vw, 5rem);
+	margin-inline: auto;
 }
 
 .wp-block-comment-template {
@@ -20,13 +22,6 @@
 	font-family: var(--wp--preset--font-family--arvo);
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: 700;
-}
-
-@media (max-width: 720px) {
-	.comments-area {
-		width: calc(100% - 2rem);
-		margin-inline: auto;
-	}
 }
 
 @media print {
